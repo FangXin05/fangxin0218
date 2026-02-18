@@ -131,6 +131,24 @@
         max-height: 500px;
         opacity: 1;
       }
+      @media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  aside {
+    flex: none;
+    min-width: auto;
+    max-width: none;
+    width: 100%;
+  }
+
+  .side {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
     </style>
   </head>
 
@@ -232,3 +250,4 @@
     </script>
   </body>
 </html>
+
